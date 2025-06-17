@@ -1,6 +1,6 @@
-# AI Learning Platform with Data Visualization
+# The Visualization Project
 
-A comprehensive full-stack web application that provides structured AI/ML curriculum with interactive data visualization tools for learning clustering algorithms.
+A comprehensive full-stack web application that provides structured AI/ML curriculum for pythong and EDA and Clustering algorithms with interactive data visualization tools for learning clustering algorithms.
 
 ## Features
 
