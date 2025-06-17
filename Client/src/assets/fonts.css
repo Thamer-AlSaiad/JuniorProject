@@ -1,0 +1,35 @@
+/* Import Delius Swash Caps from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap');
+
+/* For "Playwrite GB S" - we'll use Playbill as a fallback if Playwrite GB S isn't available */
+@font-face {
+  font-family: 'Playwrite GB S';
+  src: url('/fonts/PlaywriteGBS.woff2') format('woff2'),
+       url('/fonts/PlaywriteGBS.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Fallback for Playwrite GB S */
+@font-face {
+  font-family: 'Playbill';
+  src: url('/fonts/Playbill.woff2') format('woff2'),
+       url('/fonts/Playbill.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Import Nokio Regular font */
+@font-face {
+  font-family: 'Nokio';
+  src: url('/fonts/Nokio-Regular.woff2') format('woff2'),
+       url('/fonts/Nokio-Regular.woff') format('woff'),
+       url('/fonts/Nokio-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Times New Roman is typically pre-installed on most systems */ 
