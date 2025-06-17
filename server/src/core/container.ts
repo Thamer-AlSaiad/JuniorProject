@@ -1,0 +1,2 @@
+
+export { DI, container } from '../infrastructure/container/DIContainer';
